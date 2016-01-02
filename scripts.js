@@ -1,0 +1,15 @@
+$(function() {
+  var images = ["jasontsang1.png", "jasontsang2.png", "jasontsang3.png", "jasontsang4.png", "jasontsang5.png", "jasontsang6.png"];
+  $("#banner").css({'content': 'url(/images/banner/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    
+  var mail = ["son", "ja", 64, "ang.com", "onrts", "jas"];
+  document.getElementById("eaddress").textContent = mail[1] + mail[0] + String.fromCharCode(mail[2]) + mail[5] + mail[4] + mail[3];
+});
+
+function Popup() {
+  alert("THIS MAKES ME LAUGH");
+}
+
+function Toggle() {
+  $("#toggle").toggle();
+}
