@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>    
+    <title>SFU Projects &ndash; Jason Tsang</title>
+    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hi, this is me">
+    <meta name="keywords" content="Jason, Tsang, SFU, Computer, Engineer">  
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="JASON TSANG">
+    <meta name="application-name" content="JASON TSANG">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/scripts.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-64349546-1', 'auto');
+    ga('send', 'pageview');</script> 
+</head>
+
+<body>
+    <a href="/index.html"><div id="banner"></div></a>
+    <div id="nav">
+        <a href="/index.html" class="nav_hover">POSTS</a> 
+        <a href="/about.html" class="nav_hover">ABOUT</a></div>
+    <div class="whitespace"></div>
+    <div class="whitespace"></div>
+    <div class="whitespace"></div>
+
+    <div class="post">
+        <a href="/posts/sfu-projects.html">
+          <h1>SFU: Favourite technical projects</h1></a>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+      
+        <table>
+            <tr>
+                <td class="tr-title">Small RISC Processor + FGPA Sound Processing</td>
+                <td class="tr-date">2015</td></tr>
+            <tr>
+                <td class="tr-subtitle"><a href="https://www.sfu.ca/students/calendar/2015/spring/courses/ensc/350.html">ENSC 350 &ndash; Digital System Design</a></td></tr>  
+        </table>
+        <table>
+            <tr>
+                <td><img alt="RISC Processor" src="/images/posts/sfu-projects/350-1.jpg"></td>
+                <td><img alt="Sound Processing" src="/images/posts/sfu-projects/350-2.jpg"></td></tr> 
+        </table>
+        <p class="p-table">There are two projects I loved from this course. The first was designing and simulating a small RISC processor on a FPGA. It ran 20 bits instructions with 16 bits data: for instance, a small FIR filter. The second utilized the sound processing capablities of the audio CODEC chip on the DEV board. Using the line-in and line-out ports, the FPGA was configured for feature adjustments such as stereo/ mono audio, volume control, equalization effects, etc. routed to the boards IOs.</p>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+
+        <table>
+            <tr>
+                <td class="tr-title">Prototype Butterworth Active Filter</td>
+                <td class="tr-date">2015</td></tr>
+            <tr>
+                <td class="tr-subtitle"><a 
+                href="https://www.sfu.ca/students/calendar/2015/spring/courses/ensc/320.html">
+                ENSC 320 &ndash; Electric Circuits II</a></td></tr>   
+        </table>
+        <table>
+            <tr>
+                <td><img alt="Butterworth Filter" src="/images/posts/sfu-projects/320.jpg"></td></tr> 
+        </table>
+        <p class="p-table">This is a low-pass filter that amplifies the signals from 300-3400Hz by about 3dB, and suppress all frequencies above 11000Hz by 30dB below the passband gain. A Butterworth design was the best choice for this task because of the maximally flat passband it offers. The premise of this filter was to remove high audio-frequency noise in intercom speech, that was picked up and amplified by interfering main communication signals.</p>         
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+      
+        <table>
+            <tr>
+                <td class="tr-title">Graphical UART Performance Monitor</td>
+                <td class="tr-date">2014</td></tr>
+            <tr>
+                <td class="tr-subtitle"><a 
+                href="https://www.sfu.ca/students/calendar/2014/fall/courses/ensc/351.html">
+                ENSC 351 &ndash; Embedded and Real Time System Software</a></td></tr>   
+        </table>
+        <table>
+            <tr>
+                <td><img alt="UART Performance Monitor 1" src="/images/posts/sfu-projects/351-1.jpg"></td>
+                <td><img alt="UART Performance Monitor 2" src="/images/posts/sfu-projects/351-2.jpg"></td></tr> 
+        </table>
+        <p class="p-table">The goal of this project was to create our own VGA and UART drivers for an embedded Linux system, which would then be used to run a graphical monitor that displays runtime performance characteristics of the UART interface. AKA - something that shows how fast you're typing. The entire project was spread across the term and felt more like development work than school work. Hence, one of my favourite team projects!</p>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+    
+        <table>
+            <tr>
+                <td class="tr-title">ESSS Website Redesign</td>
+                <td class="tr-date">2014</td></tr>
+            <tr>
+                <td class="tr-subtitle"><a href="http://esss.ca">SFU Engineering Science Student Society (ESSS)</a></td></tr>
+        </table>
+        <table>
+            <tr>
+                <td><img alt="ESSS Desktop" src="/images/posts/sfu-projects/esss.jpg"></td></tr> 
+        </table> 
+        <p class="p-table">It was time for the ESSS to get some rebranding! Things were dated, so I took our self-hosted website and gave it a new WordPress makeover. WordPress was the logical choice as anyone could easily add and update content on the site. It's design is based off the <u><a href="http://andersnoren.se/teman/hoffman-wordpress-theme/">Hoffman</a></u> template, which was then heavily modified.</p>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+
+    </div>
+    <div class="whitespace"></div>   
+    <div class="whitespace"></div>   
+    <div class="whitespace"></div>   
+    <div id="copyright">&copy; 2016-17 Jason Tsang</div>
+    <div class="whitespace"></div>
+</body>
+
+</html>

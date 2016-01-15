@@ -1,86 +1,125 @@
-html {
-  -webkit-text-size-adjust:100%;
-}
+html { -webkit-text-size-adjust:100%; }
+
 body {
-  color: #4F4F4F;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  text-align: center;
-  line-height: 160%;
-  max-width: 1000px;
-  margin: 0 auto;
+    color: #4F4F4F;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    line-height: 160%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 h1 { 
-  color: #4F4F4F;
-  font-weight: bold;
-  font-size: 120%; 
-  text-align: center;
-  max-width: 1000px; 
-  margin: 0 auto;
+    color: #4F4F4F;
+    font-weight: bold;
+    font-size: 120%; 
+    text-align: center;
+    max-width: 1000px; 
+    margin: 0 auto;
 }
 p { 
-  text-align: left; 
-  font-size: 95%; 
-  max-width: 700px; 
-  margin: 0 auto; 
-  padding:10px 0 20px;
+    text-align: left; 
+    font-size: 95%; 
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding:10px 0px 20px;
 }
 ul { 
-  text-align: left;  
-  font-size: 95%; 
-  max-width: 700px; 
-  margin: 0 auto; 
+    text-align: left;  
+    font-size: 95%; 
+    max-width: 700px; 
+    margin: 0 auto; 
 }
+
 img {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  border: thin dashed #b2b2b2; 
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border: thin dashed #b2b2b2;
 }
-img.post_normal { max-width: 700px; }
 img.post_small { max-width: 400px; }
-img.post_eBoy { max-width: 75px; border: none; }
+img.post_eBoy {
+    max-width: 75px;
+    border: none;
+}
 .caption {
-  font-size: 80%;
-  font-style: italic;
-  line-height: 120%;
-  max-width: 700px; 
-  margin: 0 auto;
-  padding-bottom: 20px;
+    font-size: 80%;
+    font-style: italic;
+    line-height: 120%;
+    max-width: 700px; 
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 .caption_small {
-  font-size: 80%;
-  font-style: italic;
-  line-height: 120%;
-  max-width: 400px; 
-  margin: 0 auto;
-  padding-bottom: 20px;    
+    font-size: 80%;
+    font-style: italic;
+    line-height: 120%;
+    max-width: 400px; 
+    margin: 0 auto;
+    padding-bottom: 20px;    
+}
+
+table {
+    text-align: left;
+    font-size: 95%; 
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto;
+}
+.tr-title {
+    font-weight: bold;
+    font-size: 100%;
+}
+.tr-subtitle {
+    font-weight: bold;
+    font-style: italic;
+}
+.tr-date {
+    font-family: 'Courier New', monospace;
+    text-align: right;
+    font-size: 80%;
+}
+.p-table {
+    max-width: 694px;
+    padding: 0px 5px;
 }
 
 #banner {
-  width:100%;
-  max-width: 400px;
-  height: auto; 
-  margin: 0 auto;
+    width:100%;
+    max-width: 400px;
+    height: auto; 
+    margin: 0 auto;
 }
 #nav {
-  font-family: 'Courier New', monospace;
-  font-size: 100%;
-  letter-spacing: 3px;  
-  border-top: thin dashed #b2b2b2;
-  border-bottom: thin dashed #b2b2b2;
-  padding: 20px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 100%;
+    letter-spacing: 3px;  
+    border-top: thin dashed #b2b2b2;
+    border-bottom: thin dashed #b2b2b2;
+    padding: 20px 0;
 }
-#nav_active { color: #b2b2b2; font-weight: bold; padding: 0 15px; }
+#nav_active {
+    color: #b2b2b2;
+    font-weight: bold;
+    padding: 0 15px;
+}
 .nav_hover { padding: 0 15px; }
 
 .post_title:hover { letter-spacing: 2px; }
-.post { max-width: 1000px; margin: 0 auto; padding: 0 10px; }
-.date { font-family: 'Courier New', monospace; font-size: 80%; padding: 15px 0; }
+.post {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.date {
+    font-family: 'Courier New', monospace;
+    font-size: 80%;
+    padding: 15px 0;
+}
 .box { 
-  max-width: 660px; 
-  margin: 0 auto; 
-  border: thin solid #b2b2b2;
-  padding: 20px;
+    max-width: 660px; 
+    margin: 0 auto; 
+    border: thin solid #b2b2b2;
+    padding: 20px;
 }
 
 a { text-decoration: none; }
@@ -92,8 +131,8 @@ a:active { color: #F9A51A; }
 
 #popup { text-align: right; }
 #copyright {
-  color: #b2b2b2;
-  font-family: 'Courier New', monospace;
-  font-size: 70%;
-  letter-spacing: 1px;
+    color: #b2b2b2;
+    font-family: 'Courier New', monospace;
+    font-size: 70%;
+    letter-spacing: 1px;
 }
