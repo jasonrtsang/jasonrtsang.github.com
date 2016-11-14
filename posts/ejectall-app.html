@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>About &ndash; Jason Tsang</title>
+    <title>Eject All App &ndash; Jason Tsang</title>
     <link rel="stylesheet" href="/style.css">
     <!-- Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -46,33 +46,34 @@
     <a href="/index.html"><div id="banner"></div></a>
     <div id="nav">
         <a href="/index.html" class="nav_hover">ARCHIVE</a> 
-        <a href="/about.html" id="nav_active">ABOUT</a></div>
+        <a href="/about.html" class="nav_hover">ABOUT</a></div>
+    <div class="whitespace"></div>
     <div class="whitespace"></div>
     <div class="whitespace"></div>
 
     <div class="post">
-        <p>Hi I'm Jason, a computer engineering student studying on the mountain of <u><a href="sfu.ca">Simon Fraser University</a></u>.</p>
+        <a href="/posts/ejectall-app.html">
+            <h1>Eject All App: A statusbar application to eject all external disks on your Mac</h1></a>
+        <div class="date">November 13, 2016</div>
+        <div class="whitespace"></div>
 
-        <p>Welcome to my internet home constructed in a GitHub repository. Inspired by the minimalistic design of <u><a href="http://native-demo.squarespace.com">Squarespace's Native template</a></u>, this site is written with simple HTML and CSS. Oh, and the most minuscule bit of JavaScript to display my name banners (refresh this page if you haven't noticed). If you like its design, check out the source <u><a href="https://github.com/jasonrtsang/jasonrtsang.github.com">here</a></u> <i class="fa fa-smile-o"></i>.</p>
+        <img alt="Eject All App" src="/images/posts/ejectall-app/menu.png">
+        <div class="caption">Menu interface of this simple app.</div>
 
-        <p>The gif below is a good portrayal of me - just typing away. Created from my favourite artist <u><a href="http://hello.eboy.com/eboy/">eBoy</a></u>!</p>
-
-        <h1>
-            <br><img alt="eBoy // PT Steffen on his Desk ANI 01k" src="http://hello.eboy.com/eboy/wp-content/uploads/2014/10/PT-Steffen-on-his-Desk-ANI-01k-retina.gif" class="post_eBoy">
-            
-            <br><br>Need to reach me?<br><br>
-            <a href="https://github.com/jasonrtsang"><i class="fa fa-github-square fa-2x"></i></a>&nbsp;
-            <a href="https://www.linkedin.com/in/jasonrtsang"><i class="fa fa-linkedin-square fa-2x"></i></a>&nbsp;
-            <a onclick="Toggle()"><i class="fa fa-envelope-square fa-2x"></i></a>
-                <div id="toggle" style="display:none">
-                    <div class="whitespace"></div>
-                    <font color="#F39A06"><div id="eaddress"></div></font>
-                </div>
-        </h1>
+        <p>This is a simple statusbar app to quickly eject all eligible disks in two clicks. I created it as an alternative method when I'm not connected to the USB hub with the <u><a href="/posts/ejectall.html">Physical Eject All</a></u> button.
+        </p>
+    
+        <div class="whitespace"></div>
+        <img alt="Mac Notification" src="/images/posts/ejectall-app/notification.png" class="post_small">
+        <div class="caption_small">Notification with sound when eject is successful.</div>
+        
+        <p><a href="https://github.com/jasonrtsang/ejectallapp"><i class="fa fa-github"></i> Link to source code/ app</a></p>
+        
     </div>
 
-    <div class="whitespace"></div>    
+    <div class="whitespace"></div>   
     <div class="whitespace"></div>
+    <div class="whitespace"></div>    
     <div id="copyright">&copy; 2016-17 Jason Tsang</div>
     <div class="whitespace"></div>
 </body>

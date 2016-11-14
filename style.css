@@ -38,7 +38,7 @@ img {
 }
 img.post_small { max-width: 400px; }
 img.post_eBoy {
-    max-width: 75px;
+    max-width: 300px;
     border: none;
 }
 .caption {
@@ -92,7 +92,7 @@ tr, td  { padding: 0; }
 #nav {
     font-family: 'Courier New', monospace;
     font-size: 100%;
-    letter-spacing: 3px;  
+    letter-spacing: 2px;  
     border-top: thin dashed #b2b2b2;
     border-bottom: thin dashed #b2b2b2;
     padding: 20px 0;
@@ -129,7 +129,6 @@ a:active { color: #F9A51A; }
 
 .whitespace { padding: 10px 0; }
 
-#popup { text-align: right; }
 #copyright {
     color: #b2b2b2;
     font-family: 'Courier New', monospace;

@@ -6,10 +6,6 @@ $(function() {
   document.getElementById("eaddress").textContent = mail[1] + mail[0] + String.fromCharCode(mail[2]) + mail[5] + mail[4] + mail[3];
 });
 
-function Popup() {
-  alert("THIS MAKES ME LAUGH");
-}
-
 function Toggle() {
   $("#toggle").toggle();
 }
