@@ -4,13 +4,12 @@ body {
     color: #4F4F4F;
     font-family: 'Helvetica', sans-serif;
     text-align: center;
-    max-width: 1500px;
     margin: 0 auto;
 }
 
 h1 { 
-    font-size: calc(210% + 2vw);
-    font-family: 'Impact';
+    font-size: calc(180% + 2vw);
+    color: darkgreen;
     margin: 0 auto;
 }
 h2 { 
@@ -38,7 +37,7 @@ h3 {
 }
 
 a:link, a:visited { color: #4F4F4F; }
-a:hover { color: #F9A51A; }
+a:hover { color: darkgreen; }
 
 img.eBoy {
     max-width: calc(80% + 1vw);
