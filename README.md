@@ -1,3 +1,3 @@
 # [jasonrtsang.com](http://jasonrtsang.com)
 
-Static website hosted on GitHub
+Static page hosted on GitHub
